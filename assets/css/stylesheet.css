@@ -174,3 +174,25 @@
     width: 250px;
     border: 1px solid #3A3042;
   }
+
+  
+
+
+
+
+
+  @media screen and (max-width:950px) {
+    header {
+        background:var(--main-bc-border);
+    }
+  }
+
+  @media screen and (max-width:850px) {
+    * {
+        background:var(--Coral-cards-flex));
+    }
+
+    a {
+        color:black;
+    }
+  }
