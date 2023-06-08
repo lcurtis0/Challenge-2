@@ -1,0 +1,135 @@
+:root {
+    /* Color selection thanks to Coolors.com */
+      --Dark-Purple-background:#3A3042; /* used for background and active element*/
+      --Earth-Yellow-cards:#DB9D47; /*used for cards/text items */ 
+      --Coral-cards-flex:#FF784F; /*flex and hover*/
+      --Peach-Yellow-label:#FFE19C; /* labels*/
+      --Nyanza-text:#EDFFD9; /* For text */
+  
+      --header-font:'Cochin', Georgia, Times, Times New Roman, serif;
+      --font: 'Oxygen', Ubuntu, Cantarell, 'Helvetica Neue'; 
+      --radius:10px;
+  }
+  
+  * {
+      background-color: var(--Dark-Purple-background);
+      box-sizing: border-box;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    header{
+      font-family: var(--header-font);
+      border-radius: var(--radius);
+      margin-left: -35px;
+      margin-top: -10px;
+      margin-bottom: 20px;
+      align-items: center;
+      display:block;
+      justify-content: space-between;
+      position: relative;
+    }
+  
+    .header-holder{
+      width: 1100px;
+    }
+  
+    .name-card{
+      background-color:var(--Dark-Purple-background) ;
+      border-radius: var(--radius);
+      position: absolute;
+      float:left;
+      bottom: 175px;
+    }
+  
+    .name{
+      color:var(--Nyanza-text);
+      font-family: var(--header-font);
+    }
+  
+    /*-------------------------------------------------*/
+    
+  
+    nav {
+      background-color: var(--Dark-Purple-background);
+      border-radius: var(--radius);
+      float: left;
+      position: absolute;
+      bottom: -5px;
+      right: 0px;
+    }
+    
+    ul {
+      list-style:none;
+      position:relative;
+    }
+  
+    ul li{
+      display:inline-block;
+      padding:20px;
+      /* flex adjusts by flex grow, flex shrink and flex basis [aka default width]*/
+      flex: 1 1 50px;
+    }
+  
+    ul li a {
+      text-decoration: none;
+      color:var(--Nyanza-text);
+      font-family:var(--header-font);
+      text-align: center;
+      padding:0;
+    }
+  
+    ul li a:hover {
+      color:var(--Dark-Purple-background);
+      border-radius: var(--radius);
+      background-color: var(--Coral-cards-flex);
+      font-weight: 700;
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    ul li a:active {
+      color:var(--Dark-Purple-background);
+    }
+  
+  /*------------------------------------------------*/
+  
+   main{
+    display: flex;
+    flex-wrap: wrap;
+   }
+  
+  .part {
+     background-color:var(--Earth-Yellow-cards);
+     border-radius: var(--radius);
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 40px;
+     padding-bottom: 50px;
+  }
+  
+  .text-col { 
+   background-color:var(--Earth-Yellow-cards);
+   font-family: var(--font);
+   flex: 1 1 100px;
+   width: 25%;
+   padding: 10px;
+   height: 250px;
+   float: left;
+   flex-direction: column;
+  }
+  
+  .subject-header{
+    background-color:var(--Earth-Yellow-cards);
+    font-family: var(--header-font);
+    border: var(--Peach-Yellow-label);
+    border-radius: var(--radius);
+    color: var(--Nyanza);
+    padding-bottom: 40px;
+    padding-top:80px;
+    border: solid;
+    }
+  
+    p{
+    background-color:var(--Earth-Yellow-cards);
+    }
