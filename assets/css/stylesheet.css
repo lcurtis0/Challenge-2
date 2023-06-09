@@ -1,3 +1,6 @@
+
+/* This is the root element defining colors, fonts, etc */
+
 :root {
     /* Color selection thanks to Coolors.com */
       --Dark-Purple-background:#3A3042; /* used for background and active element*/
@@ -34,6 +37,8 @@
       width: 1100px;
     }
   
+/*where my name is */
+
     .name-card{
       background-color:var(--Dark-Purple-background) ;
       border-radius: var(--radius);
@@ -48,7 +53,7 @@
     }
   
     /*-------------------------------------------------*/
-    
+    /* Nav section*/
   
     nav {
       background-color: var(--Dark-Purple-background);
@@ -88,12 +93,8 @@
       font-size: 16px;
     }
   
-    ul li a:active {
-      color:var(--Dark-Purple-background);
-    }
-  
   /*------------------------------------------------*/
-  
+  /* section to define sections */
    main{
     display: flex;
     flex-wrap: wrap;
@@ -102,8 +103,8 @@
   .part {
      background-color:var(--Earth-Yellow-cards);
      border-radius: var(--radius);
-     display: flex;
      flex-wrap: wrap;
+     display: flex;
      margin-bottom: 40px;
      padding-bottom: 50px;
   }
@@ -115,7 +116,6 @@
    width: 25%;
    padding: 10px;
    height: 250px;
-   float: left;
    flex-direction: column;
   }
   
@@ -135,6 +135,12 @@
     }
 
     /*------------------------------------------------*/
+    /* section for images and selectors related */
+
+.work-large {
+  width: 600px;
+}
+
  .img-link {
   background-color: var(--Earth-Yellow-cards);
  }
@@ -145,15 +151,19 @@
   padding: 10px;
   flex-direction: column;
  }
+ .work-img:hover {
+  width:200px;
+ }
   .tags {
   background-color: var(--Peach-Yellow-label);
+  position: relative;
 }
 
  
 /*------------------------------------------------*/
+/* Section for contact */
 
   .columns{
-    display:flex;
     border-radius: var(--radius);
     background-color:var(--Peach-Yellow-label);
     width: 50%;
@@ -179,7 +189,7 @@
 
 
 
-
+/* media queries */
 
   @media screen and (max-width:950px) {
     header {
@@ -189,10 +199,22 @@
 
   @media screen and (max-width:850px) {
     * {
-        background:var(--Coral-cards-flex));
+        background:var(--Coral-cards-flex);
     }
 
     a {
         color:black;
+    }
+  }
+
+  @media screen and (max-width:950px) {
+    .work-large {
+      width: 300px;
+    }
+    .work-img {
+        width: 150px;
+    }
+    .text-col {
+      width: 150px;
     }
   }
