@@ -44,7 +44,7 @@ URL: https://coolors.co/
 N/A
 
 # Deployment
-Evaluated environment url: https://lcurtis0.github.io/Challenge-2/
+Evaluated environment url: https://lcurtis0.github.io/Turtle-Necklace/
 
 Badges
 N/A
