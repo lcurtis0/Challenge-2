@@ -23,12 +23,16 @@ N/A
 # Usage
 In this asignment is to create a portfolio site for future employeers and uddated later on. For web users they click on the site link and see the site itself. 
 
+![alttext](./assets/images/Screenshots/Screenshot%20(110).png)
+![alttext](./assets/images/Screenshots/Screenshot%20(111).png)
+![alttext](./assets/images/Screenshots/Screenshot%20(112).png)
+![alttext](./assets/images/Screenshots/Screenshot%20(113).png)
 
 # Credits
 
 Credit to W3schools.com for understanding media Queries. (Tutorial)
 
-URL: 
+URL: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 Credit to coolors for color variety.
 

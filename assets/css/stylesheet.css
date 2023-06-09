@@ -5,7 +5,7 @@
     /* Color selection thanks to Coolors.com */
       --Dark-Purple-background:#3A3042; /* used for background and active element*/
       --Earth-Yellow-cards:#DB9D47; /*used for cards/text items */ 
-      --Coral-cards-flex:#FF784F; /*flex and hover*/
+      --Coral-cards-flex:#e66239; /*flex and hover*/
       --Peach-Yellow-label:#FFE19C; /* labels*/
       --Nyanza-text:#EDFFD9; /* For text */
   
@@ -201,20 +201,16 @@
     * {
         background:var(--Coral-cards-flex);
     }
-
-    a {
-        color:black;
-    }
   }
 
   @media screen and (max-width:950px) {
     .work-large {
       width: 300px;
     }
-    .work-img {
+    .work-img, .text-col {
         width: 150px;
     }
-    .text-col {
-      width: 150px;
+    .columns, .resume-img {
+      width: 200px;
     }
   }
