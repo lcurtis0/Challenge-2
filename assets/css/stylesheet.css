@@ -113,7 +113,7 @@
    background-color:var(--Earth-Yellow-cards);
    font-family: var(--font);
    flex: 1 1 100px;
-   width: 25%;
+   width: 33%;
    padding: 10px;
    height: 250px;
    flex-direction: column;
@@ -146,13 +146,13 @@
  }
  .work-img{
   background-color: var(--Earth-Yellow-cards);
-  width: 300px;
+  width: 200px;
   flex: 1 1 100px;
   padding: 10px;
   flex-direction: column;
  }
  .work-img:hover {
-  width:200px;
+  width:250px;
  }
   .tags {
   background-color: var(--Peach-Yellow-label);
